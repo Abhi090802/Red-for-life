@@ -7,7 +7,7 @@
 	$address = $_POST['address'];
 
 	// Database connection
-	$conn = new mysqli('localhost','root','','test');
+	$conn = new mysqli('localhost','root','','abhishek');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
